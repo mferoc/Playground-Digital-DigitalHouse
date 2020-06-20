@@ -1,0 +1,18 @@
+Sempre falta um ponto e vírgula?
+Você pode ter visto em JavaScript alguns comandos, instruções que terminam em ";".
+
+Em Javascript, o sinal ";" é opcional. Mas é importante que você utilize para o computador conseguir entender onde termina o comando.
+
+Para começar, no exercício anterior vimos:
+
+var meses = 12
+var quantidadeDeAlunos = 30
+Também poderia ter sido escrito da seguinte forma, como abaixo:
+
+var meses = 12;
+var quantidadeDeAlunos = 30;
+A partir dos próximos exercícios, usaremos o ";" como no exemplo anterior.
+
+Agora vamos praticar ! Crie as variáveis meses e quantidadeDeAlunos, igual ao exemplo.
+
+Após criar as variáveis, basta executar a sua resposta. Neste exercício, estamos apenas praticando a declaração correta do código.

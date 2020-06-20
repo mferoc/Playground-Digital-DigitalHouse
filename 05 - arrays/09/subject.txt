@@ -1,0 +1,11 @@
+Contém
+Escreva a função contem(array, numero) que nos diz se um array contém um determinado elemento.
+
+ contem([1, 6, 7, 6], 7)
+true
+ contem([1, 6, 7, 6], 6)
+true
+ contem([], 7)
+false
+ contem([8, 5], 7)
+false

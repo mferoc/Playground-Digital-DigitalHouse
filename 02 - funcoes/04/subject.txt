@@ -1,0 +1,16 @@
+Usando funções
+Tendo essas pequenas funções, podemos combiná-las para fazer coisas mais complexas.
+
+Por exemplo, se quisermos somar dois números e depois multiplicá-los por 3, poderíamos fazê-lo da seguinte maneira:
+
+function somar (num1, num2) {
+   return num1 + num2;
+}
+function triploDaSoma(num3, num4) {
+   var resultadoDaSoma = somar(num3, num4);
+   return resultadoDaSoma * 3;
+}
+Aqui vemos que tendo a função somar() definida, podemos chamá-la dentro de outra função(neste caso dentro da função triploDaSoma()), guardar o seu resultado da execução em uma nova variável e tornar o trabalho mais fácil.
+
+
+Agora pedimos que você declare uma função chamada triploDaSoma() que recebe dois parâmetros. Então você tem que adicionar ambos e retornar três vezes o valor do resultado da soma dos dois parâmetros . Para fazer isso, você já conta (mesmo que não veja declarado) com a função triplo, que recebe um parâmetro e retorna o valor dele multiplicado por três.

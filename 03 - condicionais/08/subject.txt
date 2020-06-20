@@ -1,0 +1,14 @@
+As tabelas verdade
+Seguindo as abordagens filosóficas e analisando a seguinte tabela, podemos concluir que, na lógica booleana, o comportamento de uma expressão pode ser definido por meio de uma tabela de verdade. Onde A e B são expressões que avaliam true oufalse e usam o símbolo ^ (que representa a conjunção deles), podemos determinar se a união deles gera True ou False.
+
+A	B	A ^ B
+V	V	V
+V	F	F
+F	V	F
+F	F	F
+No mundo da lógica, essas expressões são chamadas de proposições. Mas ... o que pode ser uma proposição? Eles só precisam ter um valor de verdade, isto é, qualquer expressão booleana pode ser uma proposição.
+
+filosofoHipster('Músico', 'Brasil', 5) // true
+filosofoHipster('Músico', 'Argentina', 1) // false
+filosofoHipster('Docente', 'Canadá', 12) // false
+Use a função console.log para mostrar os resultados da execução da função filosofoHipster com parâmetros diferentes, pelo menos 3 vezes. A função filosofoHipster já está definida, mesmo que você não a veja, basta chamá-la como no exemplo acima.
