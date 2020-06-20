@@ -1,0 +1,14 @@
+Contagens
+"Ah, mas isso não acaba aqui" - disse Ana "Eu quero saber em quantos meses houve lucro, ou seja, o saldo foi maior que zero".
+
+Complete a função quantidadeDeMesesComLucro. Se você prestar atenção, notará que tem uma estrutura semelhante ao problema anterior 
+
+Exemplo:
+
+function quantidadeDeMesesComLucro(umPeriodo) {
+  var quantidade= ????;
+  for (let mes=0; mes< umPeriodo.length; mes++) {
+    ????
+  }
+  return quantidade;
+}
